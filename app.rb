@@ -7,7 +7,6 @@ class App < Sinatra::Base
 
 	get '/goodbye' do
 		erb :goodbye
-		@name = "Joe"
 	end
 
 	get '/date' do
